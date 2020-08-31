@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "handleImage": "node ./node/handleImage.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/sojoasd/faithanimals-tnr-image/issues"
   },
-  "homepage": "https://github.com/sojoasd/faithanimals-tnr-image#readme"
+  "homepage": "https://github.com/sojoasd/faithanimals-tnr-image#readme",
+  "dependencies": {
+    "aws-sdk": "^2.741.0",
+    "axios": "^0.20.0",
+    "eslint": "^7.7.0",
+    "form-data": "^3.0.0",
+    "pino": "^4.17.6"
+  }
 }
